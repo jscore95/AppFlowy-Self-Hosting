@@ -8,6 +8,7 @@ on:
 env:
   FLUTTER_VERSION: "3.10.1"
   RUST_TOOLCHAIN: "1.70"
+  GIT_TRACE: true
 
 jobs:
   create-release:
